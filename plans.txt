@@ -38,7 +38,5 @@ Address	:	A31 Block 1 St Lakas Tao San Andres
 Area	:	San Juan, Pasig & Mandaluyong
 
 
-https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping
-
 
 		

@@ -1,0 +1,148 @@
+:root {
+  --vibgreen: #06d30a;
+  --satgreen: #08a64f;
+  --blue: #1f4492;
+  --dark: rgba(30, 30, 30, 0.8);
+  --dark2: rgba(30, 30, 30, 0.6);
+  --fontsize: 16px;
+  --fs-1:calc(var(--fontsize)*1);
+  --fs-15:calc(var(--fontsize)*1.5);
+  --fs-2:calc(var(--fontsize)*2);
+  --fs-25:calc(var(--fontsize)*2.5);
+  --fs-3:calc(var(--fontsize)*3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+
+h1 {
+  font-size: var(--fs-25);
+  font-weight: bold;
+  color: var(--blue) !important;
+}
+
+h3 {
+  font-size: var(--fs-1);
+  font-weight: bold;
+  color: var(--dark) !important;
+}
+
+h5 {
+  font-size: var(--fs-1);
+  font-weight: bold;
+  color: var(--dark) !important;
+}
+
+
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar .nav-item .nav-link {
+  color: var(--blue) !important;
+}
+
+.mechanics ol{
+  padding-left: 1em;
+}
+
+
+.card {
+  border-color: var(--vibgreen);
+}
+
+.card .card-body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.card .card-body .mbps{
+  padding: 15px;
+  font-size: var(--fs-15);
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--satgreen);
+}
+.card .card-body .price{
+  padding: 15px;
+}
+
+.card .card-body .channels{
+  padding: 5px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 12px;
+  background-color: var(--satgreen);
+}
+
+.warn-info {
+  width: 100%;
+  background-color: #1f4492;
+  color: #fff;
+  padding: 2rem;
+}
+
+.contacts {
+  width: 100%;
+  background-image: url('../image/bg_contacts.jpg');
+}
+.contacts h5{
+  line-height:0px;
+}
+
+.contacts small{
+  text-transform: uppercase;
+}
+
+.contacts blockquote {
+  font-size: small;
+  color: var(--dark2);
+}
+.contacts ul{
+   list-style-type: none;
+   padding: 0;
+   
+ }
+
+ .contacts ul li a{
+  color: var(--dark2) !important;
+  text-decoration: none;
+ }
+
+ .contacts ul li a:hover{
+  color: black !important;
+ }
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+}
+
+.btn-primary {
+  font-size: var(--fs-1);
+  background-color: var(--vibgreen);
+}
+
+
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: var(--fs-15);
+  } 
+  h3 {
+    font-size: var(--fs-1);
+  }
+
+  .map {
+    height: 300px;
+  }
+}
